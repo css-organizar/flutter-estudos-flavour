@@ -47,23 +47,33 @@ android {
     flavorDimensions "version"
 
     productFlavors {
+
+        // Instância Principal (Sem Flavours)
+        // "br.com.devcss.app_flutter_flavour.free"
+        
         main {
             dimension "version"
             versionCode 1
             versionName "0.0.1"
         }
 
+        // Instância Free (Ambiente Gratuito)
+        // "br.com.devcss.app_flutter_flavour.free"
+
         free {
             dimension "version"
-            applicationIdSuffix ".free" // "br.com.devcss.app_flutter_flavour.free"
+            applicationIdSuffix ".free" 
             versionNameSuffix "-free"
             versionCode 1
             versionName "0.0.1"
         }
 
+        // Instância Full (Ambiente Pago)
+        // "br.com.devcss.app_flutter_flavour.full"
+
         full {
             dimension "version"
-            applicationIdSuffix ".full" // "br.com.devcss.app_flutter_flavour.full"
+            applicationIdSuffix ".full" 
             versionNameSuffix "-full"
             versionCode 1
             versionName "0.0.1"

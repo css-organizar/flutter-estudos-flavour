@@ -4,19 +4,30 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+        // Instância Principal
+
         {
             "name": "Flutter Main",
             "request": "launch",
             "type": "dart",
             "args": ["--flavor", "main"],
             "program": "lib/main.dart"
-        },{
+        },
+        
+        // Instância Free
+
+        {
             "name": "Flutter Free",
             "request": "launch",
             "type": "dart",
             "args": ["--flavor", "free"],
             "program": "lib/main_free.dart"
-        },{
+        },
+        
+        // Instância Full
+        
+        {
             "name": "Flutter Full",
             "request": "launch",
             "type": "dart",
