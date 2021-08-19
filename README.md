@@ -3,9 +3,22 @@
 Projeto de Estudos par Utilização de Flavours em Flutter
 
 Instâncias criadas
+
  * Main
  * Free
  * Full
+
+Alterações Principais
+
+ * E:\workspace\flutter\app-flutter-flavour\android\app\src
+ * E:\workspace\flutter\app-flutter-flavour\android\app\src\free
+ * E:\workspace\flutter\app-flutter-flavour\android\app\src\free\res\values\strings.xml
+ * E:\workspace\flutter\app-flutter-flavour\android\app\src\full
+ * E:\workspace\flutter\app-flutter-flavour\android\app\src\full\res\values\strings.xml
+ * E:\workspace\flutter\app-flutter-flavour\android\app\src\main\res\values
+ * E:\workspace\flutter\app-flutter-flavour\android\app\src\main\res\values\strings.xml
+ * E:\workspace\flutter\app-flutter-flavour\android\app\src\main\AndroidManifest.xml
+ * E:\workspace\flutter\app-flutter-flavour\android\app\build.gradle
 
 ## Como rodar das Instâncias com o Flavour
 
