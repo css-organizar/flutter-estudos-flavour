@@ -1,0 +1,28 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter Main",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--flavor", "main"],
+            "program": "lib/main.dart"
+        },{
+            "name": "Flutter Free",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--flavor", "free"],
+            "program": "lib/main_free.dart"
+        },{
+            "name": "Flutter Full",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--flavor", "full"],
+            "program": "lib/main_full.dart"
+        }
+      
+    ]
+}
