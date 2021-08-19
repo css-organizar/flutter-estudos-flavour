@@ -48,17 +48,11 @@ android {
 
     productFlavors {
 
-        // Instância Principal (Sem Flavours)
-        // "br.com.devcss.app_flutter_flavour.free"
-        
         main {
             dimension "version"
             versionCode 1
             versionName "0.0.1"
         }
-
-        // Instância Free (Ambiente Gratuito)
-        // "br.com.devcss.app_flutter_flavour.free"
 
         free {
             dimension "version"
@@ -67,9 +61,6 @@ android {
             versionCode 1
             versionName "0.0.1"
         }
-
-        // Instância Full (Ambiente Pago)
-        // "br.com.devcss.app_flutter_flavour.full"
 
         full {
             dimension "version"
