@@ -49,14 +49,9 @@ flutter build apk-full --flavor full -t lib/main_full.dart
 
 ```json
 {
-    // Use o IntelliSense para saber mais sobre os atributos possíveis.
-    // Focalizar para exibir as descrições dos atributos existentes.
-    // Para obter mais informações, acesse: 
-    // https://go.microsoft.com/fwlink/?linkid=830387
+
     "version": "0.2.0",
     "configurations": [
-
-        // Instância Principal
 
         {
             "name": "Flutter Main",
@@ -66,8 +61,6 @@ flutter build apk-full --flavor full -t lib/main_full.dart
             "program": "lib/main.dart"
         },
         
-        // Instância Free
-
         {
             "name": "Flutter Free",
             "request": "launch",
@@ -75,8 +68,6 @@ flutter build apk-full --flavor full -t lib/main_full.dart
             "args": ["--flavor", "free"],
             "program": "lib/main_free.dart"
         },
-        
-        // Instância Full
         
         {
             "name": "Flutter Full",
